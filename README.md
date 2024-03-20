@@ -26,6 +26,6 @@ sudo ./Benchmark
 ## 人员 ##
 
 * 唐显达 2210878@mail.nankai.edu.cn
-* 蒋家豪 2211103@mail.nankai.edu.cn
+* 蒋佳豪 2211103@mail.nankai.edu.cn
 * 王志铭 2212286@mail.nankai.edu.cn
 * 姜宇 2210705@mail.nankai.edu.cn
