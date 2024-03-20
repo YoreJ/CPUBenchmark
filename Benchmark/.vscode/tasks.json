@@ -1,0 +1,73 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "G++: 编译单文件",
+            "command": "/usr/bin/g++",
+            "args": [
+                "${fileDirname}/${fileBasenameNoExtension}.cpp",
+                "-o",
+                "${workspaceFolder}/build/test",
+                "-g",
+                "-pedantic",
+                "-Wall",
+                "-Wextra",
+                "-pthread",
+                "-fsanitize=undefined",
+                "-std=c++20"
+            ],            
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "detail": "G++: 编译单个文件"
+        },
+        {
+            "type": "shell",
+            "label": "G++: 编译多文件",
+            "command": "/usr/bin/g++",
+            "args": [
+                "${fileDirname}/*.cpp",
+                "-o",
+                "${workspaceFolder}/build/test",
+                "-g",
+                "-pedantic",
+                "-Wall",
+                "-Wextra",
+                "-pthread",
+                "-fsanitize=undefined",
+                "-std=c++20"
+            ],            
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "detail": "G++: 编译多个文件"
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,60 @@
+{
+    "configuration": {
+      "tests": [
+        {
+          "name": "List_FindAndSort::FindTest",
+          "parameters": [
+            {"name": "TestSize", "value": 50000},
+            {"name": "Iter", "value": 10}
+          ]
+        },
+        {
+          "name": "List_FindAndSort::SortTest",
+          "parameters": [
+            {"name": "TestSize", "value": 10000000},
+            {"name": "Iter", "value": 10}
+          ]
+        },
+        {
+          "name": "Matrix::MultiplyTest",
+          "parameters": [
+            {"name": "TestSize", "value": 1000},
+            {"name": "Iter", "value": 10}
+          ]
+        },
+        {
+          "name": "JPEG_Compress::JPEGCompTest",
+          "parameters": [
+            {"name": "inputpath", "value": "desktop.jpeg"},
+            {"name": "outputpath", "value": "CompressedPic.jpeg"},
+            {"name": "Quality", "value": 80},
+            {"name": "NumThreads", "value": 1},
+            {"name": "Iterations", "value": 100},
+            {"name": "Iter", "value": 10}
+          ]
+        },
+        {
+          "name": "HashTest",
+          "parameters": [
+            {"name": "TestSize", "value": 10000000},
+            {"name": "Iter", "value": 100}
+          ]
+        },
+        {
+          "name": "XMLAnal",
+          "parameters": [
+            {"name": "xmlpath", "value": "mondial-3.0.xml"},
+            {"name": "Iter", "value": 10}
+          ]
+        },
+        {
+          "name": "Prime::PrimeTest",
+          "parameters": [
+            {"name": "PrimePath", "value": 10000000},
+            {"name": "Iter", "value": 10}
+          ]
+        }
+      ]
+    }
+  }
+  

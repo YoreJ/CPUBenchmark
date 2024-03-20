@@ -1,0 +1,44 @@
+{
+    "JPEGCompress": {
+        "Cycle": 960089,
+        "IPC": 0.173704,
+        "Instructions": 166771,
+        "Time": 16849337134
+    },
+    "LsFind": {
+        "Cycle": 84390878674,
+        "IPC": 3.940095384010292,
+        "Instructions": 332508111516,
+        "Time": 20434138898
+    },
+    "LsSort": {
+        "Cycle": 10728806840,
+        "IPC": 3.5552424136102725,
+        "Instructions": 38143509125,
+        "Time": 16847454430
+    },
+    "MulMatrix": {
+        "Cycle": 91144582906,
+        "IPC": 4.235191745614855,
+        "Instructions": 386014785181,
+        "Time": 20950030336
+    },
+    "PrimeTest": {
+        "Cycle": 648605723,
+        "IPC": 4.471695187308731,
+        "Instructions": 2900367090,
+        "Time": 4729458070
+    },
+    "SHA_256": {
+        "Cycle": 225920,
+        "IPC": 0.34796388101983,
+        "Instructions": 78612,
+        "Time": 1009281811
+    },
+    "XMLAnalysis": {
+        "Cycle": 263318860,
+        "IPC": 1.21036,
+        "Instructions": 318711355,
+        "Time": 7797432
+    }
+}
